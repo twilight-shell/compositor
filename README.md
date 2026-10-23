@@ -1,5 +1,7 @@
 # twilight-shell/compositor
 
+[![ci](https://github.com/twilight-shell/compositor/actions/workflows/ci.yml/badge.svg)](https://github.com/twilight-shell/compositor/actions/workflows/ci.yml)
+
 What a shell needs to know about the Wayland compositor it runs under, the same
 for every compositor: workspaces, the focused window and output, the keyboard
 layout. Components import it instead of talking to a compositor themselves.
@@ -52,6 +54,10 @@ make install PREFIX=~/.local QMLDIR=~/.local/lib/qt6/qml
 
 If the module isn't in a directory Qt searches, point `QML_IMPORT_PATH` at its
 parent.
+
+## Contributing
+
+Contributions are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md). Agents and the like: [AGENTS.md](AGENTS.md).
 
 ## License
 
