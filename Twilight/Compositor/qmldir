@@ -1,0 +1,2 @@
+module Twilight.Compositor
+singleton Compositor 1.0 Compositor.qml
